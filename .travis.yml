@@ -5,6 +5,9 @@ node_js:
 services:
   - docker
 
+env:
+  - DOCKER_COMPOSE_VERSION=1.4.2
+
 # Pre-testing installs
 install:
   - echo "nothing needs to be installed"
